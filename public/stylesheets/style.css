@@ -1,0 +1,52 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+  background-image: url("http://www.saintamour-hotel.com/maj/images_resized/2507-so-2013-restaurant-et-bar-photo-background02-fr.jpg");
+}
+
+h1 {
+  color: #00FF00;
+}
+
+a {
+  color: #00B7FF;
+}
+#head {
+  width: 225px;
+  background-color: white;
+  margin: 0 auto;
+  padding: 10px;
+}
+#container {
+  width: 300px;
+  margin: 0 auto;
+  background-color: #00FF00;
+  padding: 10px;
+
+}
+
+p {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-weight: lighter;
+
+}
+
+#clear {
+  margin: 0 auto;
+  width: 300px;
+  padding: 10px;
+
+}
+
+#total {
+  color: #00FF00;
+}
+
+#quote {
+  text-align: center;
+  color: grey;
+  font-size: 12px;
+}

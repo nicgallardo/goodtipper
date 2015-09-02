@@ -1,0 +1,28 @@
+extends layout
+
+block content
+  div(id="head")
+    h1= title
+  div(id="container")
+    div(id="main")
+      form(method="post" id="form" name="amount")
+        p Total Bill Amount
+        p 
+          input(name="amount" type="text" placeholder="Total Bill")
+        p
+          input(id="twentypercent" name="percent" type="checkbox" value=.20)
+          label(for="twentypercent") 20% 
+          
+          input(id="fifteenpercent" name="percent" type="checkbox" value=.15)
+          label(for="fifteenpercent") 15% 
+          
+          input(id="percent" name="percent" type="checkbox" value=.10 )
+          label(for="tenpercent") 10% 
+        p  
+          input(type="submit" value="What's My Tip?")
+  
+  //- div(value="hidden")
+   
+    
+   
+    
